@@ -15,10 +15,7 @@ const EventListItem = ({ event }: { event: any }) => {
           </Text>
           <Text className="text-gray-700">{event.location}</Text>
         </View>
-        <Image
-          source={{ uri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg' }}
-          className="aspect-video w-2/5 rounded-xl"
-        />
+        <Image source={{ uri: event.image }} className="aspect-video w-2/5 rounded-xl" />
       </View>
 
       <View className="flex-row gap-3">
