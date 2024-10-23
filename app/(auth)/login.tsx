@@ -86,7 +86,7 @@ export default function Auth() {
         <Pressable
           className="flex-1 items-center rounded-md bg-red-500 p-3 px-8"
           disabled={loading}
-          onPress={() => signInWithEmail()}>
+          onPress={() => signUpWithEmail()}>
           <Text className="text-lg font-bold text-white">Sign up</Text>
         </Pressable>
       </View>
